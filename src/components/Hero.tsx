@@ -51,11 +51,29 @@ export function Hero() {
         <motion.p
           variants={item}
           data-cursor="text"
-          className="mt-7 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+          className="mt-4 text-sm md:text-base text-muted-foreground/70 font-medium"
         >
-          Building automation systems and scalable backend solutions for real-world business
-          workflows.
+          Backend · Automation · Cloud · ERP
         </motion.p>
+
+        <motion.p
+          variants={item}
+          data-cursor="text"
+          className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+        >
+          I build backend systems, business automations, and ERP integrations that turn manual workflows into reliable software.
+        </motion.p>
+
+        <motion.div variants={item} className="mt-6 flex flex-wrap items-center justify-center gap-2 text-sm font-medium text-muted-foreground/80">
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">Python</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">FastAPI</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">Django</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">ERPNext</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">n8n</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">MongoDB</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">MySQL</span>
+          <span className="px-3 py-1 rounded-full bg-white/30 border border-white/40">AWS</span>
+        </motion.div>
 
         <motion.div variants={item} className="mt-10 flex flex-wrap items-center justify-center gap-3">
           <Magnetic intensity={15} scale={1.05}>

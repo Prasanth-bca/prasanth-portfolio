@@ -77,9 +77,20 @@ export function Contact() {
         </div>
       </motion.div>
 
-      <p className="mt-10 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Prasanth · Crafted with care.
-      </p>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="mt-12 text-center space-y-2"
+      >
+        <p className="text-base font-medium text-muted-foreground/80">
+          Let's build something useful.
+        </p>
+        <p className="text-sm text-muted-foreground/60">
+          © {new Date().getFullYear()} Prasanth
+        </p>
+      </motion.div>
     </Section>
   );
 }

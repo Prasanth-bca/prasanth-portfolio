@@ -3,9 +3,9 @@ import { Section } from "./Section";
 import { Workflow, Cloud, Database } from "lucide-react";
 
 const highlights = [
-  { icon: Workflow, title: "Workflow Automation", desc: "Streamlining business processes end-to-end." },
-  { icon: Database, title: "ERP Customization", desc: "Tailoring ERPNext to fit unique operations." },
-  { icon: Cloud, title: "Cloud Deployments", desc: "Scalable, reliable infrastructure on AWS." },
+  { icon: Workflow, title: "Automation Engineering", desc: "Designing automated workflows that connect email, APIs, databases, ERP systems and AI services." },
+  { icon: Database, title: "ERP & Business Systems", desc: "Building and customizing ERPNext workflows, integrations and backend services around real business requirements." },
+  { icon: Cloud, title: "Cloud & Deployment", desc: "Deploying and maintaining applications using AWS, Docker, Linux and production infrastructure." },
 ];
 
 export function About() {
@@ -23,13 +23,13 @@ export function About() {
           className="md:col-span-3 space-y-5 text-base md:text-lg leading-relaxed text-muted-foreground"
         >
           <p>
-            I'm a Software Developer focused on building automation systems and backend solutions.
-            I specialize in ERP customization, workflow automation, and deploying scalable
-            applications.
+            I'm a Software Developer focused on backend development, automation and business systems.
           </p>
           <p>
-            I have hands-on experience with ERP systems, cloud deployments, and automation tools to
-            streamline business processes and improve efficiency.
+            I enjoy building systems that connect applications, APIs, databases and business workflows — from automated email processing and ERP integrations to cloud deployments.
+          </p>
+          <p>
+            My current technical focus is Python backend development, AI-powered automation, ERP systems and production deployment.
           </p>
         </motion.div>
 
